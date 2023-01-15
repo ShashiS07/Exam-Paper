@@ -9,48 +9,48 @@ function App() {
 
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "What is the capital of India?",
       options: [
-        { id: 0, text: "New York City", isCorrect: false },
-        { id: 1, text: "Boston", isCorrect: false },
-        { id: 2, text: "Santa Fe", isCorrect: false },
-        { id: 3, text: "Washington DC", isCorrect: true },
+        { id: 0, text: "Banaras", isCorrect: false },
+        { id: 1, text: "Lucknow", isCorrect: false },
+        { id: 2, text: "Mumbai", isCorrect: false },
+        { id: 3, text: "New Delhi", isCorrect: true },
       ],
     },
     {
-      text: "What year was the Constitution of America written?",
+      text: "What year was the Constitution of India written?",
       options: [
-        { id: 0, text: "1787", isCorrect: true },
-        { id: 1, text: "1776", isCorrect: false },
-        { id: 2, text: "1774", isCorrect: false },
-        { id: 3, text: "1826", isCorrect: false },
+        { id: 0, text: "1950", isCorrect: true },
+        { id: 1, text: "1947", isCorrect: false },
+        { id: 2, text: "1948", isCorrect: false },
+        { id: 3, text: "1949", isCorrect: false },
       ],
     },
     {
-      text: "Who was the second president of the US?",
+      text: "Who was the Prime Minister of the India?",
       options: [
-        { id: 0, text: "John Adams", isCorrect: true },
-        { id: 1, text: "Paul Revere", isCorrect: false },
-        { id: 2, text: "Thomas Jefferson", isCorrect: false },
-        { id: 3, text: "Benjamin Franklin", isCorrect: false },
+        { id: 0, text: "Narendra Modi", isCorrect: true },
+        { id: 1, text: "Sonia Gandhi", isCorrect: false },
+        { id: 2, text: "Amit Shah", isCorrect: false },
+        { id: 3, text: "Arvind Kejriwal", isCorrect: false },
       ],
     },
     {
-      text: "What is the largest state in the US?",
+      text: "What is the largest state in the India?",
       options: [
-        { id: 0, text: "California", isCorrect: false },
-        { id: 1, text: "Alaska", isCorrect: true },
-        { id: 2, text: "Texas", isCorrect: false },
-        { id: 3, text: "Montana", isCorrect: false },
+        { id: 0, text: "Maharastra", isCorrect: false },
+        { id: 1, text: "Uttar Pradesh", isCorrect: true },
+        { id: 2, text: "Madhya Pradesh", isCorrect: false },
+        { id: 3, text: "Bihar", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following countries DO NOT border the US?",
+      text: "Which of the following countries DO NOT border the India?",
       options: [
-        { id: 0, text: "Canada", isCorrect: false },
+        { id: 0, text: "Bangladesh", isCorrect: false },
         { id: 1, text: "Russia", isCorrect: true },
-        { id: 2, text: "Cuba", isCorrect: true },
-        { id: 3, text: "Mexico", isCorrect: false },
+        { id: 2, text: "Sri Lanka", isCorrect: true },
+        { id: 3, text: "Pakistan", isCorrect: false },
       ],
     },
   ];
@@ -81,7 +81,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header  */}
-      <h1>USA Quiz 🇺🇸</h1>
+      <h1>India Quiz</h1>
 
       {/* 2. Current Score  */}
       <h2>Score: {score}</h2>
